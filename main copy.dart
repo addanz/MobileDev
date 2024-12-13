@@ -82,21 +82,21 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Welcome Section
-              Card(
+              const Card(
                 elevation: 4,
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(16.0),
                   child: Column(
                     children: [
-                      const Text(
+                      Text(
                         'Welcome to My Portfolio!',
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(height: 8),
-                      const Text(
+                      SizedBox(height: 8),
+                      Text(
                         'Hi, I\'m Addan, a passionate Computer Programming student. This website is for my Mobile Development course by '
                         'the code of INFT 3101-01. This website is meant to allow you to explore fun things about me and the work I have '
                         'completed throughout my computer programming career so far. Explore my projects, labs, and work! Please use '
@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      PortfolioTile(
+                      const PortfolioTile(
                         title: 'Lab Work',
                         description: 'In labs, I got to practice and experiment with Android Studio, MIT App Inventor, and DartPad. Using these different apps, '
                             'I made multiple activities with multiple screens, sharing things about myself like my favourite quote, making quizzes to try out and quiz my friends. '
@@ -133,14 +133,14 @@ class HomePage extends StatelessWidget {
                             'plan for their trip as well.',
                         icon: Icons.laptop,
                       ),
-                      PortfolioTile(
+                      const PortfolioTile(
                         title: 'Classwork',
                         description: 'For classwork, I did things similar to those mentioned for the lab work but this time experimented with different types of coding, technologies, frameworks, '
                             'and tools. Some of the different things we tried out included Java, Flutter, Dart, HTML/CSS, JavaScript, Bootstrap, and WordPress, '
                             'each applied to different aspects of programming and development.',
                         icon: Icons.notes,
                       ),
-                      PortfolioTile(
+                      const PortfolioTile(
                         title: 'Projects',
                         description: 'For projects, this is my biggest individual project aside from the group project where we built a game called Maze Maureders. In this game, you pick a character '
                             'and start in a maze. As you open doors, you unlock more of the maze map and face attackers. You can either use a defensive shielding ability or an attacking ability '

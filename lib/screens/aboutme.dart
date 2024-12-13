@@ -10,37 +10,37 @@ class AboutMeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('About Me'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
+            Text(
               'Addan Zahra',
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(height: 16),
+            SizedBox(height: 16),
             Center(
               child: CircleAvatar(
                 radius: 100,
                 backgroundImage: AssetImage('assets/me.jpg'),
               ),
             ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
+            SizedBox(height: 24),
+            Divider(),
+            SizedBox(height: 16),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(Icons.flag, color: Colors.green),
-                const SizedBox(width: 14),
+                Icon(Icons.flag, color: Colors.green),
+                SizedBox(width: 14),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Background:',
                         style: TextStyle(
@@ -59,18 +59,18 @@ class AboutMeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
+            SizedBox(height: 24),
+            Divider(),
+            SizedBox(height: 16),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(FontAwesomeIcons.laptopCode, color: Colors.purple),
-                const SizedBox(width: 14),
+                Icon(FontAwesomeIcons.laptopCode, color: Colors.purple),
+                SizedBox(width: 14),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Education:',
                         style: TextStyle(
@@ -89,18 +89,18 @@ class AboutMeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
+            SizedBox(height: 24),
+            Divider(),
+            SizedBox(height: 16),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(FontAwesomeIcons.book, color: Colors.blue),
-                const SizedBox(width: 14),
+                Icon(FontAwesomeIcons.book, color: Colors.blue),
+                SizedBox(width: 14),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Hobbies:',
                         style: TextStyle(
@@ -121,18 +121,18 @@ class AboutMeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
+            SizedBox(height: 24),
+            Divider(),
+            SizedBox(height: 16),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(FontAwesomeIcons.paintBrush, color: Colors.red),
-                const SizedBox(width: 14),
+                Icon(FontAwesomeIcons.paintBrush, color: Colors.red),
+                SizedBox(width: 14),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Free Time:',
                         style: TextStyle(
@@ -150,18 +150,18 @@ class AboutMeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 24),
-            const Divider(),
-            const SizedBox(height: 16),
+            SizedBox(height: 24),
+            Divider(),
+            SizedBox(height: 16),
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Icon(FontAwesomeIcons.handshake, color: Colors.orange),
-                const SizedBox(width: 14),
+                Icon(FontAwesomeIcons.handshake, color: Colors.orange),
+                SizedBox(width: 14),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
                         'Interests/ Community Involvement:',
                         style: TextStyle(
